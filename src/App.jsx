@@ -44,18 +44,18 @@ const LoginComponent = () => {
       </button>
 
       {/* Left Side - Background ungu hanya di sebelah kanan */}
-      <div className="md:flex-1 bg-gradient-to-b from-[#626FEA] to-[#1D245F] rounded-r-[35px] flex items-center justify-center p-6">
+      <div className="md:flex-1 bg-gradient-to-b from-[#626FEA] to-[#1D245F] rounded-r-[10px] flex items-center justify-center p-6">
         <div className="text-center w-full mt-10 md:mt-20">
           {' '}
           {/* Menambahkan margin top untuk menaikkan logo */}
-          <img src={Logo} alt="NusaTalk Logo" className="mx-auto w-2/3 w-full h-auto max-h-[200px] md:max-h-[250px] object-contain" />
+          <img src={Logo} alt="NusaTalk Logo" className="mx-auto w-2/3 md:w-1/2 h-auto max-h-[200px] md:max-h-[300px] object-contain" />
         </div>
       </div>
 
       {/* Right Side */}
       <div className="md:flex-1 bg-white dark:bg-gray-800 p-6 md:p-8 flex flex-col justify-center min-h-screen gap-6 transition-colors duration-300">
         <div className="max-w-md mx-auto w-full">
-          <h2 className="text-md font-bold mb-6 text-center text-gray-800 dark:text-white">Login Using Phone Number</h2>
+          <h2 className="text-md font-bold mb-6 text-center text-gray-800 dark:text-white">Input Your Phone Number</h2>
 
           {/* Phone number input */}
           <div className="mb-6 w-full flex flex-col items-center">
